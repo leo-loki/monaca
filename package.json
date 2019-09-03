@@ -2,16 +2,15 @@
   "name": "monaca-pwa-template-minimum",
   "version": "2.0.0",
   "displayName": "Monaca PWA Template Minimum",
-  "dependencies": {
-    "lodash": ">=4.17.13",
-    "mixin-deep": ">=1.3.2",
-    "set-value": ">=2.0.1"
-  },
+  "dependencies": {},
   "scripts": {
     "monaca:preview": "npm run dev",
     "dev": "browser-sync start --no-open -s www/ --watch --port 8080 --ui-port 8081"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.7",
+    "lodash": ">=4.17.13",
+    "mixin-deep": ">=1.3.2",
+    "set-value": ">=2.0.1"
   }
 }
