@@ -2,7 +2,9 @@
   "name": "monaca-pwa-template-minimum",
   "version": "2.0.0",
   "displayName": "Monaca PWA Template Minimum",
-  "dependencies": {},
+  "dependencies": {
+    "lodash": ">=4.17.13"
+  },
   "scripts": {
     "monaca:preview": "npm run dev",
     "dev": "browser-sync start --no-open -s www/ --watch --port 8080 --ui-port 8081"
